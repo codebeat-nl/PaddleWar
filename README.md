@@ -58,4 +58,10 @@ This demo lets you play the PaddleWar! game from the Commander Keen series.
 
 SCREENSHOTS:
 
+![screenshot01](https://raw.githubusercontent.com/codebeat-nl/PaddleWar/master/screenshot01.png)
 
+![screenshot02](https://raw.githubusercontent.com/codebeat-nl/PaddleWar/master/screenshot02.png)
+
+![screenshot03](https://raw.githubusercontent.com/codebeat-nl/PaddleWar/master/screenshot03.png)
+
+![screenshot04](https://raw.githubusercontent.com/codebeat-nl/PaddleWar/master/screenshot04.png)
