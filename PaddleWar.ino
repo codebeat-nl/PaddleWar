@@ -20,19 +20,19 @@
 
   HOW TO CONNECT
   _____________
-  ARDUINO      |
-  NANO/    GND o-------------------------------\
-  ATMEGA328    |                               _|_/|
-           D11 o ------- SOUND OUT ------------[__ | SPEAKER
-               |                                  \|                         RCA CONNECTOR
+  ARDUINO      |                        PIEZO SPEAKER    OR   RCA CONNECTOR____
+  NANO/    GND o-------------------------------\       --------------------|    |______
+  ATMEGA328    |                               _|_/|                      __/---|______)
+           D11 o ------- AUDIO OUT ------------[__ |   --[_1K_RESISTOR_]--| ____|
+               |                                  \|
                |                                                             ____
-           D9  o ------- VIDEO SYNC ----|__1K RESITOR ]--------- |              |______
+           D9  o ------- VIDEO SYNC ----|__1K RESITOR__]-------- |              |______
                |                                                 |----TV--------|______)
-           D7  o ------- VIDEO SIGNAL --|__470 OHM RESISTOR ] ---|          ____|
-               |                                                              |
+           D7  o ------- VIDEO SIGNAL --|__470 OHM RESISTOR_]----|           ___|
+               |                                                              |   RCA CONNECTOR
            GND o ---------------------------------------------------- TV-----/
                |                  _|_      |        _
-                                  ___  1uF |_______| |_____
+                                  ___  1uF |_______| |_____  PADDLE
                |                   | +           --| |_____| 10K POTENTIOMETER LINEAIR
            AO  o ------------------|---------------|_|       (not a taper pot!)
                |
